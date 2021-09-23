@@ -1,0 +1,21 @@
+Package: REfind
+Title: Find the best Restriction Enzymes for PCR-RFLP species identification
+Version: 1.0.0
+Authors@R: 
+    c(person("Indriatmoko", "Indriatmoko", email="Indriatmoko.brpsdi@gmail.com", role=c("aut","cre")), 
+      person("Adi", "Pancoro", email="adi.pancoro19@gmail.com", role="aut"))
+Description: REfind providing several function to assist user in finding the best restriction enzymes for PCR-RFLP based species identification. The users can use multiple species sequence from NCBI, in-sillico PCR, and simulate enzymatic digestion to know produced various DNA fragment among sequence data used due to SNP variation in restriction enzyme recognition sites.
+Depends: 
+	R, seqRFLP
+Imports:
+	Biostrings,
+	Rfast,
+	XVector,
+	rentrez,
+	seqinr,
+        splitstackshape 
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1

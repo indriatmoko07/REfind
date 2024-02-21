@@ -1,6 +1,6 @@
 # REfind
 REfind provides several functions to assist users in finding the best restriction enzymes for PCR-RFLP-based species identification. 
-This package is available only on GitHub. REfind will install all required dependencies from CRAN, but you have to install Biostrings manually from Bioconductor prior to installing REfind
+This package is available only on GitHub. REfind will install all required dependencies from CRAN, but you have to install Biostrings manually from Bioconductor prior to installing REfind. Update 21/2/2024. Because seqRFLP as one of dependency is no longer available from cran, I add a short script to install seqRFLP from github 
 
 ```
 if (!requireNamespace("BiocManager", quietly = TRUE))
@@ -9,6 +9,7 @@ BiocManager::install("Biostrings")
 
 if (!requireNamespace("devtools", quietly = TRUE))
   install.packages("devtools")
+devtools::install_github("helixcn/seqRFLP")
 devtools::install_github("indriatmoko07/REfind")
 
 ```

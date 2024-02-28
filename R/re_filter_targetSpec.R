@@ -7,7 +7,7 @@
 #'
 #' @examples
 #' ?re_filter_lowfrag
-#' Filt2.Target<-re_filter_target(Filt1.DataMerge)
+#' Filt2.Target<-re_filter_targetSpec(Filt1.DataMerge)
 
 re_filter_targetSpec<- function(x){
   df<-x

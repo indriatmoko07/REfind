@@ -1,4 +1,4 @@
-# REfind  <img src='man/Image.png' align="right" height="160" />
+# REfind  <img src='man/Ico.png' align="right" height="160" />
 
 REfind provides several functions to assist users in finding the best restriction enzymes for PCR-RFLP-based species identification. 
 
